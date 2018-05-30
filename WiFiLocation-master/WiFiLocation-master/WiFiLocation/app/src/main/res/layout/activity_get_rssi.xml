@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_get_rssi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.lavender.wifilocation.GetRssiActivity">
+
+    <Button
+        android:text="开始采集信号强度"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/btnStartGetRssi" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:layout_below="@+id/edtCoord"
+        android:layout_alignEnd="@+id/edtCoord"
+        android:layout_marginTop="18dp"
+        android:id="@+id/edtMemory"
+        android:layout_alignStart="@+id/edtCoord" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:layout_marginTop="12dp"
+        android:id="@+id/edtCoord"
+        android:layout_below="@+id/btnStartGetRssi"
+        android:layout_alignEnd="@+id/btnStopGetRssi"
+        android:layout_toEndOf="@+id/btnStartGetRssi" />
+
+    <TextView
+        android:text="请输入坐标"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/edtCoord"
+        android:layout_alignBottom="@+id/edtCoord"
+        android:layout_marginTop="11dp"
+        android:id="@+id/txtCoord" />
+
+    <TextView
+        android:text="请输入备注"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtMemory"
+        android:layout_alignBaseline="@+id/edtMemory"
+        android:layout_alignBottom="@+id/edtMemory"
+        android:layout_alignParentStart="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/edtMemory"
+        android:layout_alignParentStart="true">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:id="@+id/txtRoom"
+                android:text="请选择实验房间：" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner" />
+
+
+            <TextView
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edtMemory"
+                android:layout_marginTop="24dp"
+                android:id="@+id/txtShow"
+                android:layout_alignEnd="@+id/edtMemory" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:text="结束采集信号强度"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnStopGetRssi"
+        android:layout_marginEnd="21dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

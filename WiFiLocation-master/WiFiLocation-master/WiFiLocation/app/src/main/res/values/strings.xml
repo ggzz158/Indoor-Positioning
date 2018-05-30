@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">WiFi室内定位系统</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string-array name="room_array">
+        <item>科协办公室</item>
+        <item>实验室1</item>
+        <item>实验室2</item>
+    </string-array>
+    <string-array name="algorithm_array">
+        <item>KNN</item>
+        <item>模糊集</item>
+    </string-array>
+    <string name="ok">确认</string>
+</resources>
