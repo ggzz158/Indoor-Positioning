@@ -1,5 +1,5 @@
 # Indoor-Positioning
-Android前端代码，包括功能：数据采集+WiFi定位+PDR辅助定位+路径规划
+Android室内定位前端代码，包括功能：数据采集+WiFi定位+PDR辅助定位+路径规划
 
 ![目录][1]
 ## 绪论 ##
