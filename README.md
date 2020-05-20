@@ -34,13 +34,13 @@ Android室内定位前端，包括功能：数据采集、WiFi+PDR定位、路�
 
 ​       在使用本模块时首先进入主页面，之后点击信息采集按钮，在信息采集页面填写采集当前采集信号的位置信息，最后点击采集按钮完成WiFi信息采集。在该界面中我们将看到每个参考AP点的信号强度，方便用户感知WiFi信号强度的变化。  
 
-<img src="https://cdn.jsdelivr.net/gh/GXW19961104/photoCloud/blogImg/20200520232439.png" style="zoom:80%;" /><img src="https://cdn.jsdelivr.net/gh/GXW19961104/photoCloud/blogImg/20200520232458.png" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/GXW19961104/photoCloud/blogImg/20200520232439.png" style="zoom:80%;" />  <img src="https://cdn.jsdelivr.net/gh/GXW19961104/photoCloud/blogImg/20200520232458.png" style="zoom:80%;" />
 
 （2）定位模块
 
 ​       在使用本模块时首先进入主页面，点击定位按钮，在定位页面中，我们将看到自定义地图，之后点击定位按钮，当前的位置信息将显示在界面上。
 
-<img src="https://cdn.jsdelivr.net/gh/GXW19961104/photoCloud/blogImg/20200521002120.png" style="zoom:80%;" /><img src="https://cdn.jsdelivr.net/gh/GXW19961104/photoCloud/blogImg/20200521002133.png" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/GXW19961104/photoCloud/blogImg/20200521002120.png" style="zoom:80%;" />  <img src="https://cdn.jsdelivr.net/gh/GXW19961104/photoCloud/blogImg/20200521002133.png" style="zoom:80%;" />
 
 
 
@@ -56,7 +56,7 @@ Android室内定位前端，包括功能：数据采集、WiFi+PDR定位、路�
 
 ​       本系统测试和使用时不需要知道每个AP点摆放的位置，对室内环境也没有特别要求。在数据采集模块进行前我们首先对室内地图进行绘制如图所示，之后在每个点进行WiFi信号强的的采集，将采集的结果存入数据库中，其结果如图所示
 
-![](https://cdn.jsdelivr.net/gh/GXW19961104/photoCloud/blogImg/20200521002314.png)![](https://cdn.jsdelivr.net/gh/GXW19961104/photoCloud/blogImg/20200521002325.png)
+![](https://cdn.jsdelivr.net/gh/GXW19961104/photoCloud/blogImg/20200521002314.png)  ![](https://cdn.jsdelivr.net/gh/GXW19961104/photoCloud/blogImg/20200521002325.png)
 
 
 
@@ -64,11 +64,11 @@ Android室内定位前端，包括功能：数据采集、WiFi+PDR定位、路�
 
 ​       在轨迹跟踪模块中，系统首先完成定位功能，之后将调用Android的方向传感器和加速度传感器，获得运动步数以及运动方向，通过轨迹跟踪算法获得轨迹信息，其测试结果如图所示，图中蓝点的位置为用户走过的位置，通过这样的方式我们可以获得实时的动态位置和运动轨迹。
 
-<img src="https://cdn.jsdelivr.net/gh/GXW19961104/photoCloud/blogImg/20200521002450.png" style="zoom:80%;"/>![](https://cdn.jsdelivr.net/gh/GXW19961104/photoCloud/blogImg/20200521002515.png)<img src="https://cdn.jsdelivr.net/gh/GXW19961104/photoCloud/blogImg/20200521002450.png" style="zoom:80%;"/>![](https://cdn.jsdelivr.net/gh/GXW19961104/photoCloud/blogImg/20200521002515.png)
+<img src="https://cdn.jsdelivr.net/gh/GXW19961104/photoCloud/blogImg/20200521002450.png" style="zoom:80%;"/>  ![](https://cdn.jsdelivr.net/gh/GXW19961104/photoCloud/blogImg/20200521002515.png)
 
 ​       在查找最短路径模块中，系统首先完成定位功能，之后用户在界面上输入想要到达的位置信息，系统将位置信息传送至服务器，服务器通过路径规划算法，获得路径信息，并将路径信息传送至Android客户端，客户端将其绘制在爱定义地图上，其测试结果如图所示。
 
-<img src="https://cdn.jsdelivr.net/gh/GXW19961104/photoCloud/blogImg/20200521002718.png" style="zoom:80%;" />![](https://cdn.jsdelivr.net/gh/GXW19961104/photoCloud/blogImg/20200521002737.png)<img src="https://cdn.jsdelivr.net/gh/GXW19961104/photoCloud/blogImg/20200521002718.png" style="zoom:80%;" />![](https://cdn.jsdelivr.net/gh/GXW19961104/photoCloud/blogImg/20200521002737.png)
+<img src="https://cdn.jsdelivr.net/gh/GXW19961104/photoCloud/blogImg/20200521002718.png" style="zoom:80%;" />  ![](https://cdn.jsdelivr.net/gh/GXW19961104/photoCloud/blogImg/20200521002737.png)
 
 
 
