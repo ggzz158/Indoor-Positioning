@@ -1,10 +1,9 @@
 ## 基于Wi-Fi的室内定位系统
 [![](https://img.shields.io/badge/video-1.0-green)](https://b23.tv/d6bHme)
 
-###↑↑↑ 功能演示
-Android室内定位前端，包括功能：数据采集、WiFi+PDR定位、路径规划
-###详细代码及论文请联系vx：15895872151
-![]()
+### ↑↑↑ 功能演示
+​ Android室内定位前端，包括功能：数据采集、WiFi+PDR定位、路径规划
+### 详细代码及论文请联系vx：15895872151
 <img src="https://s3.ax1x.com/2021/03/05/6mI2W9.jpg" alt="图片替换文本" width="200" height="200" align="bottom" />
 ### 一、概要
 
