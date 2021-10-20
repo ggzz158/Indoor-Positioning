@@ -3,8 +3,8 @@
 
 ### ↑↑↑ 功能演示
 ​ Android室内定位，包括功能：数据采集、WiFi+PDR定位、路径规划
-### 详细代码及论文请联系vx：15895872151
-<img src="https://s3.ax1x.com/2021/03/05/6mI2W9.jpg" alt="图片替换文本" width="200" height="200" align="bottom" />
+### 详细代码及论文请联系q：844970924
+<img src="https://img-blog.csdnimg.cn/dcd87cc31eba4c259f2b058d313007f4.jpg" alt="图片替换文本" width="200" height="200" align="bottom" />
 
 ###  一、概要
 
